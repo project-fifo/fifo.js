@@ -1,0 +1,45 @@
+{
+  "name": "node-fifo",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": [
+    "Heinz N. Gies <heinz@licenser.net>",
+    "Randy Lebeau <randylebeau@gmail.com>"
+  ],
+  "description": "FiFo API bindings for node.js",
+  "scripts": {
+    "test": "vows --spec --isolate"
+  },
+  "main": "./lib/fifo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/project-fifo/fifo.js.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "keywords": [
+    "http",
+    "fifo",
+    "SmartOS"
+  ],
+  "dependencies": {
+    "restify": "2.6.x",
+    "q": "v0.9.x"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "vows": "0.5.x"
+  },
+  "license": "CDDL",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "bugs": {
+    "url": "https://github.com/project-fifo/fifo.js/issues"
+  },
+  "bundleDependencies": [
+    "union",
+    "ecstatic"
+  ]
+}
