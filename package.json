@@ -1,6 +1,6 @@
 {
   "name": "node-fifo",
-  "preferGlobal": true,
+  "preferGlobal": false,
   "version": "0.1.0",
   "author": [
     "Heinz N. Gies <heinz@licenser.net>",
