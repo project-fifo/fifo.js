@@ -1,10 +1,11 @@
 {
   "name": "node-fifo",
-  "preferGlobal": true,
-  "version": "0.1.0",
+  "preferGlobal": false,
+  "version": "0.1.1",
   "author": [
     "Heinz N. Gies <heinz@licenser.net>",
-    "Randy Lebeau <randylebeau@gmail.com>"
+    "Randy Lebeau <randylebeau@gmail.com>",
+    "Daniel Goldshlack <daniel.goldshlack@gmail.com>"
   ],
   "description": "FiFo API bindings for node.js",
   "scripts": {
