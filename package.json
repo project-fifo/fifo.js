@@ -1,7 +1,7 @@
 {
   "name": "node-fifo",
   "preferGlobal": false,
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": [
     "Heinz N. Gies <heinz@licenser.net>",
     "Randy Lebeau <randylebeau@gmail.com>",
