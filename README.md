@@ -6,6 +6,20 @@ npm install node-fifo
 ```
 
 ## Basic Usage:
+```
+var Config = {
+        FiFo: [{
+            version: '3',
+            dc: 'dc_name',
+            url: 'http://127.0.0.1/',
+            username: 'xx',
+            password: 'xx'
+        }]
+    };
+
+require('node-fifo');
+```
+...
 
 ```
 var token = FiFo.connect(fifo_url, fifo_username, fifo_password);
