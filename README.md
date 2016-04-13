@@ -7,7 +7,7 @@ npm install node-fifo
 
 ## Basic Usage:
 ```
-var Config = {
+var Config = global.Config = {
         FiFo: [{
             version: '3',
             dc: 'dc_name',
